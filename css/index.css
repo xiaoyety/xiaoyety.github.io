@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+.box img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+ .box2 img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.box3:hover .box2 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    opacity: 0;
+    transform: rotatey(180deg);
+    transition: all 5s;
+}
+.box3:hover .box img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    transition: all 5s;
+}
