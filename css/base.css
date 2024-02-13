@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+  *,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    PingFangSC-Regular,
+    "PingFang SC",
+    "Microsoft YaHei",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 14px;
+  color: #333;
+  /* 横向滚动条 */
+  overflow-x: hidden;
+}
+
+img {
+  vertical-align: bottom;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgb(0 0 0 / 0%);
+}

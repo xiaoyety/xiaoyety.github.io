@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>叶の主页</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- header -->
+    <header>    
+        <!-- 导航 -->
+        <div class="nav">
+            <ul>
+                <!-- 头像 -->
+                <li id="head">
+                    <img src="./upload/HeadImg.webp" alt="">
+                    <p>xiaoye的主页</p>
+                </li>
+                <!-- 主页 -->
+                <li id="web">
+                    <a href="">
+                        <span class="iconfont icon-Home">
+                            web
+                        </span>
+                        <hr>   
+                    </a>
+                </li>
+                <!-- 关于 -->
+                <li id="about">
+                    <a href="https://xiaoyety.github.io/about">
+                        <span class="iconfont icon-a-Save1">
+                            about
+                        </span>   
+                        <hr>
+                    </a>
+                </li>
+            </ul>
+        </div> 
+    </header>
+    <!-- 侧边栏 -->
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="">
+            <span class="iconfont icon-Home">Web
+        </a>
+        <a href="https://xiaoyety.github.io/about">
+            <span class="iconfont icon-a-Save1">About
+        </a>
+      </div>
+    <div id="main">
+        <button id="Openbtn" onclick="openNav()">
+            <span class="iconfont icon-cebianlan"></span>
+        </button>
+    </div>
+    <!-- banner -->
+    <div class="banner">
+        <h1>WELCOME TO MY WEB</h1>
+        <p>叶の主页</p>
+    </div>
+    <!-- 内容 -->
+        <!-- 兴趣爱好 -->
+        <h2>Interest</h2>
+        <article class="interest" id="one">
+            <div>
+                <h3>
+                   Steam
+                </h3>
+                <p>
+                   本人Steam,如果想看的话
+                </p>
+                <button>
+                    <a href="https://steamcommunity.com/profiles/76561199521894226/" target="_blank">
+                        <span class="iconfont icon-steam"></span>
+                        跳转
+                    </a>
+                </button>
+            </div>
+            <div>
+                <h3>Dungeons&Dragons</h3>
+                <p>本人玩龙与地下城，感兴趣可以点跳转</p>
+                <button>
+                    <a href="https://5echm.kagangtuya.top/" target="_blank">
+                        <span class="iconfont icon-qihuan"></span>
+                        跳转
+                    </a>
+                </button>
+            </div>
+            <div>
+                <h3>OSU</h3>
+                <p>本人OSU技术很菜...</p>
+                <button>
+                    <a href="https://osu.ppy.sh/home" target="_blank">
+                        <span class="iconfont icon-a-Minimize3"></span>
+                        跳转
+                    </a>
+                </button>
+            </div>
+            <div>
+                <h3>Touhou Project</h3>
+                <p>本人是東方厨，想了解可以点跳转</p>
+                <button>
+                    <a href="https://thwiki.cc/%e4%b8%9c%e6%96%b9Project" target="_blank">
+                        <span class="iconfont icon-aihao"></span>
+                        跳转
+                    </a>
+                </button>
+            </div>
+            <!-- 待补充 -->
+            <div>
+                <h3>待补充</h3>
+                <p>待补充</p>
+                <button>
+                    <a href="">
+                        <span class="iconfont icon-File"></span>
+                        待补充
+                    </a>
+                </button>
+            </div>
+            <div>
+                <h3>待补充</h3>
+                <p>待补充</p>
+                <button>
+                    <a href="">
+                        <span class="iconfont icon-File"></span>
+                        待补充
+                    </a>
+                </button>
+            </div>
+            <div>
+                <h3>待补充</h3>
+                <p>待补充</p>
+                <button>
+                    <a href="">
+                        <span class="iconfont icon-File"></span>
+                        待补充
+                    </a>
+                </button>
+            </div>
+            <div>
+                <h3>待补充</h3>
+                <p>待补充</p>
+                <button>
+                    <a href="">
+                        <span class="iconfont icon-File"></span>
+                        待补充
+                    </a>
+                </button>
+            </div>
+        </article>
+    <!-- 底部区域 -->
+    <footer>
+        <hr> 
+        <p>
+            ©本网页由xiaoye搭建
+        </p>
+        <ul>
+            <li id="mount">
+                <a href="https://bbs.mountblade.com.cn/home.php?mod=space&uid=3318519">
+                    <span class="iconfont icon-qishi"></span>
+                </a>
+            </li>   
+            <li id="github">
+                <a href="https://github.com/xiaoyety">
+                    <span class="iconfont icon-github1"></span>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <!-- body -->
+    <!-- 音乐播放器 -->
+    <script type="text/javascript" src="https://myhkw.cn/player/js/jquery.min.js"></script>
+    <script type="text/javascript" id="myhk" src="https://myhkw.cn/api/player/170495493174" key="170495493174" m="1"></script>
+    <!-- rem布局 -->
+    <script src="./js/flexible.js"></script>
+    <!-- 侧边栏 -->
+    <script src="./js/Nav.js"></script>
+</body>
+</html>

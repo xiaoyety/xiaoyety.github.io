@@ -1,0 +1,410 @@
+/* 依照电脑分辨率率的基础值 */
+/* 字体 */
+/* 导航 */
+.nav ul {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+  height: 3.125vw;
+  background-color: transparent;
+  color: #BDC3C7;
+  font-size: 0.10416667rem;
+  text-align: center;
+  align-items: center;
+  padding: 0 6.25vw;
+  margin-top: 1.04166667vw;
+  /* 头像 */
+  /* 主页和关于的设置 */
+  /* 关于的额外设置 */
+}
+.nav ul #head {
+  display: flex;
+  flex: 1;
+}
+.nav ul #head img {
+  display: block;
+  border-radius: 50%;
+  height: 2.60416667vw;
+  transition: all 0.5s;
+}
+.nav ul #head p {
+  padding-left: 0.52083333vw;
+  text-align: center;
+  line-height: 2.60416667vw;
+}
+.nav ul #head img:hover {
+  transform: rotate(360deg);
+}
+.nav ul #web,
+.nav ul #about {
+  padding-right: 1.04166667vw;
+  overflow: hidden;
+}
+.nav ul #web a,
+.nav ul #about a {
+  color: #BDC3C7;
+}
+.nav ul #web a span,
+.nav ul #about a span {
+  font-size: 0.10416667rem;
+  padding: 0.26041667vw;
+}
+.nav ul #web a hr,
+.nav ul #about a hr {
+  background-color: #AED6F1;
+  color: skyblue;
+  height: 0.15625vw;
+  transform: translateX(-3.95833333vw);
+  transition: all 0.2s;
+}
+.nav ul #web a:hover,
+.nav ul #about a:hover {
+  color: #FDFEFE;
+}
+.nav ul #web a:hover hr,
+.nav ul #about a:hover hr {
+  transform: translateX(0);
+}
+.nav ul #about a hr {
+  transform: translateX(-4.94791667vw);
+}
+/* 侧边栏导航 */
+#main {
+  display: none;
+}
+.sidebar {
+  display: none;
+}
+/* banner */
+.banner {
+  background: url(../upload/banner.webp) no-repeat fixed top;
+  background-size: 99.73958333vw;
+  border-radius: 0.78125vw;
+  width: 100vw;
+  height: 47.39583333vw;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* 欢迎标语 */
+  /* 文字变色 */
+}
+.banner h1 {
+  position: relative;
+  top: 35%;
+  color: white;
+  font-size: 5.20833333vw;
+  animation: title 8s infinite linear;
+  text-shadow: 0px 0px 60px #6699CC;
+}
+.banner p {
+  position: relative;
+  color: white;
+  top: 35%;
+  font-size: 1.5625vw;
+  text-shadow: 0px 0px 1.04166667vw #FF0033;
+}
+@keyframes title {
+  0% {
+    text-shadow: 0px 0px 1.5625vw #6699CC;
+  }
+  10% {
+    text-shadow: 0px 0px 1.5625vw #1AB5DD;
+  }
+  20% {
+    text-shadow: 0px 0px 1.5625vw #00CFD5;
+  }
+  30% {
+    text-shadow: 0px 0px 1.5625vw #46E4B7;
+  }
+  40% {
+    text-shadow: 0px 0px 1.5625vw #A2F28F;
+  }
+  50% {
+    text-shadow: 0px 0px 1.5625vw #F9F871;
+  }
+  60% {
+    text-shadow: 0px 0px 1.5625vw #FF6666;
+  }
+  70% {
+    text-shadow: 0px 0px 1.5625vw #DC5A89;
+  }
+  80% {
+    text-shadow: 0px 0px 1.5625vw #A75B9A;
+  }
+  90% {
+    text-shadow: 0px 0px 1.5625vw #6D5C94;
+  }
+  100% {
+    text-shadow: 0px 0px 1.5625vw #40557A;
+  }
+  110% {
+    text-shadow: 0px 0px 1.5625vw #EAEDED;
+  }
+}
+/* 标题 */
+h2 {
+  font-size: 0.20833333rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 5.20833333vw;
+  margin-bottom: 3.125vw;
+  color: #2E4053;
+}
+/* 兴趣爱好 */
+.interest {
+  margin-left: auto;
+  margin-right: auto;
+  width: 72.91666667vw;
+  height: 26.04166667vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+.interest div {
+  width: 18.22916667vw;
+  height: 13.02083333vw;
+}
+.interest div h3 {
+  text-align: left;
+  font-size: 1.30208333vw;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 2.60416667vw;
+  color: #5DADE2;
+}
+.interest div p {
+  text-align: left;
+  font-size: 0.83333333vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 2.60416667vw;
+}
+.interest div button {
+  border: none;
+  border-radius: 0.52083333vw;
+  width: 5.20833333vw;
+  height: 2.60416667vw;
+  background: #85C1E9;
+  line-height: 2.08333333vw;
+  font-size: 1.04166667vw;
+}
+.interest div button a {
+  color: #E5E7E9;
+}
+.interest div button a span {
+  font-size: 1.04166667vw;
+}
+.interest div button:hover {
+  background: #3498DB;
+}
+/* 底部区域 */
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 72.91666667vw;
+  height: 8.33333333vw;
+  text-align: center;
+  margin-top: 5.20833333vw;
+}
+footer hr {
+  color: #34495E;
+  background-color: #34495E;
+  height: 0.10416667vw;
+}
+footer p {
+  font-size: 0.83333333vw;
+  color: #ABB2B9;
+  padding-top: 1.82291667vw;
+}
+footer ul {
+  display: flex ;
+  justify-content: center;
+}
+footer ul li {
+  /* 小字体阅读 */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer ul #mount,
+footer ul #github {
+  margin-top: 1.04166667vw;
+}
+footer ul #mount a span,
+footer ul #github a span {
+  font-size: 0.15625rem;
+  padding: 0.26041667vw;
+}
+/* 导航 */
+@media screen and (max-width: 992px) {
+  .nav ul {
+    height: 6.25vw;
+    background-color: transparent;
+    color: #E5E7E9;
+    font-size: 0.41666667rem;
+    padding: 0 6.25vw;
+    margin-top: 4.16666667vw;
+    position: absolute;
+  }
+  .nav ul #head img {
+    height: 6.25vw;
+    display: none;
+  }
+  .nav ul #head p {
+    padding-left: 1.04166667vw;
+    line-height: 6.25vw;
+    font-weight: 700;
+  }
+  .nav ul #web,
+  .nav ul #about {
+    display: none;
+  }
+}
+/* 侧边栏 */
+@media screen and (max-width: 992px) {
+  .sidebar {
+    display: block;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #D6EAF8;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #CCD1D1;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidebar a:hover {
+    color: white;
+  }
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    font-size: 30px;
+    color: #34495E;
+  }
+  #main {
+    position: relative;
+    display: block;
+  }
+  #main #Openbtn {
+    margin-top: 3.38541667vw;
+    margin-right: 4.16666667vw;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: transparent;
+    color: #BDC3C7;
+    border: none;
+  }
+  #main #Openbtn span {
+    font-size: 7.8125vw;
+  }
+  #main #Openbtn:hover {
+    color: white;
+  }
+}
+/* banner响应式 */
+@media screen and (max-width: 992px) {
+  .banner {
+    width: 100vw;
+    height: 56.25vw;
+    background-attachment: scroll;
+  }
+  .banner h1 {
+    position: relative;
+    top: 35%;
+    color: white;
+    font-size: 6.25vw;
+    animation: title 8s infinite linear;
+    text-shadow: 0px 0px 60px #6699CC;
+  }
+  .banner p {
+    position: relative;
+    color: white;
+    top: 35%;
+    font-size: 3.125vw;
+    text-shadow: 0px 0px 1.04166667vw #FF0033;
+  }
+}
+/* 内容样式变化 */
+@media screen and (max-width: 992px) {
+  h2 {
+    font-size: 1.04166667rem;
+  }
+  #one {
+    font-size: 30;
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 100%;
+    text-align: center;
+  }
+  #one div {
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #CCD1D1;
+    width: 90%;
+    height: 28.64583333vw;
+    text-align: center;
+    padding-top: 2.60416667vw;
+    margin-bottom: 2.60416667vw;
+  }
+  #one div h3 {
+    text-align: center;
+    font-size: 5.20833333vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 2.60416667vw;
+    color: #5DADE2;
+  }
+  #one div p {
+    text-align: center;
+    font-size: 2.60416667vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 2.60416667vw;
+  }
+  #one div button {
+    border: none;
+    border-radius: 0.52083333vw;
+    width: 13.02083333vw;
+    height: 5.20833333vw;
+    background: #85C1E9;
+    line-height: 2.08333333vw;
+    font-size: 2.60416667vw;
+  }
+  #one div button a {
+    color: #E5E7E9;
+  }
+  #one div button a span {
+    font-size: 2.60416667vw;
+  }
+  #one div button:hover {
+    background: #3498DB;
+  }
+  #one div:nth-child(1) {
+    border-top: none;
+  }
+}
+/* 底部区域 */
+@media screen and (max-width: 992px) {
+  footer p {
+    font-size: 3.125vw;
+    color: #ABB2B9;
+    padding-top: 1.82291667vw;
+  }
+  footer ul #mount,
+  footer ul #github {
+    margin-top: 1.04166667vw;
+  }
+  footer ul #mount a span,
+  footer ul #github a span {
+    font-size: 0.52083333rem;
+    padding: 0.52083333vw;
+  }
+}

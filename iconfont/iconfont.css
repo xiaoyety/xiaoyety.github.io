@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4420918 */
+  src: url('iconfont.woff2?t=1706589430731') format('woff2'),
+       url('iconfont.woff?t=1706589430731') format('woff'),
+       url('iconfont.ttf?t=1706589430731') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cebianlan:before {
+  content: "\e606";
+}
+
+.icon-qihuan:before {
+  content: "\e604";
+}
+
+.icon-qishi:before {
+  content: "\e603";
+}
+
+.icon-steam:before {
+  content: "\ecc3";
+}
+
+.icon-discord:before {
+  content: "\e60b";
+}
+
+.icon-steam1:before {
+  content: "\e610";
+}
+
+.icon-bilibili-copy:before {
+  content: "\e601";
+}
+
+.icon-github1:before {
+  content: "\e677";
+}
+
+.icon-bilibili:before {
+  content: "\e602";
+}
+
+.icon-github:before {
+  content: "\e85a";
+}
+
+.icon-aihao:before {
+  content: "\e612";
+}
+
+.icon-erciyuan:before {
+  content: "\e600";
+}
+
+.icon-a-Minimize3:before {
+  content: "\e95a";
+}
+
+.icon-a-Save1:before {
+  content: "\e95b";
+}
+
+.icon-File:before {
+  content: "\e95c";
+}
+
+.icon-Down:before {
+  content: "\e954";
+}
+
+.icon-Left:before {
+  content: "\e955";
+}
+
+.icon-Right:before {
+  content: "\e956";
+}
+
+.icon-Up:before {
+  content: "\e957";
+}
+
+.icon-Search:before {
+  content: "\e958";
+}
+
+.icon-Home:before {
+  content: "\e959";
+}
+
