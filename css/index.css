@@ -89,6 +89,9 @@
   /* 欢迎标语 */
   /* 文字变色 */
 }
+.banner .lazy-background {
+  background-image: url(../upload/banner.webp);
+}
 .banner h1 {
   position: relative;
   top: 35%;
@@ -137,9 +140,6 @@
   }
   100% {
     text-shadow: 0px 0px 1.5625vw #40557A;
-  }
-  110% {
-    text-shadow: 0px 0px 1.5625vw #EAEDED;
   }
 }
 /* 标题 */

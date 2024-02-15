@@ -84,7 +84,10 @@
 }
 /* banner */
 .banner {
-    background: url(../upload/banner.webp) no-repeat fixed top;
+    .lazy-background {
+        background-image:url(../upload/banner.webp);
+      }
+    background:url(../upload/banner.webp) no-repeat fixed top;
     background-size: (1915 / @rootSize);
     border-radius: (15 / @rootSize);
     width: (1920 / @rootSize);
@@ -142,9 +145,6 @@
         }
         100% {
             text-shadow: 0px 0px (30 / @rootSize) #40557A;
-        }
-        110% {
-            text-shadow: 0px 0px (30 / @rootSize) #EAEDED;
         }
     }
 }
