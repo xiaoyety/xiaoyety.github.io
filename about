@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>叶の介绍</title>
+
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- 导航 -->
+    <div class="nav">
+        <ul>
+            <!-- 主页文字 -->
+            <li id="head">
+                    <p><a href="https://www.xiaoyety.top/">xiaoye的主页</a></p>
+            </li>
+        </ul>
+    </div> 
+    <!-- 介绍 -->
+    <div class="introduce">
+        <p>HELL <span>O</span></p>
+        <P>有人来看？那么我介绍一下吧，这里只是我自个建立的网页</P>
+        <!-- <P>目前先用github搭载我的网页，之后我会考虑购买域名搭载我的网页</P> -->
+    </div>
+    <script src="./js/flexible.js"></script>
+</body>
+</html>
