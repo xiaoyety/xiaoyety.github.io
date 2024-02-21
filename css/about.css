@@ -12,8 +12,6 @@
   align-items: center;
   padding: 0 6.25vw;
   /* 头像 */
-  /* 主页和关于的设置 */
-  /* 关于的额外设置 */
 }
 .nav ul #head {
   display: flex;
@@ -29,40 +27,6 @@
 }
 .nav ul #head p:hover + .txt {
   display: block;
-}
-.nav ul #web,
-.nav ul #about {
-  padding-right: 1.04166667vw;
-  overflow: hidden;
-}
-.nav ul #web a,
-.nav ul #about a {
-  color: #EAEDED;
-}
-.nav ul #web a span,
-.nav ul #about a span {
-  font-size: 0.10416667rem;
-  padding: 0.26041667vw;
-}
-.nav ul #web a hr,
-.nav ul #about a hr {
-  border: 1px solid #46E4B7;
-  background-color: #46E4B7;
-  color: #46E4B7;
-  height: 0.15625vw;
-  transform: translateX(-76px);
-  transition: all 0.2s;
-}
-.nav ul #web a:hover,
-.nav ul #about a:hover {
-  color: #FDFEFE;
-}
-.nav ul #web a:hover hr,
-.nav ul #about a:hover hr {
-  transform: translateX(0px);
-}
-.nav ul #about a hr {
-  transform: translateX(-95px);
 }
 .introduce {
   margin-top: 10.41666667vw;
@@ -81,5 +45,11 @@ body {
 @media screen and (max-width: 992px) {
   .introduce p {
     font-size: 0.41666667rem;
+  }
+  .nav ul {
+    width: 100vw;
+    height: 10.41666667vw;
+    font-size: 0.52083333rem;
+    line-height: 10.41666667vw;
   }
 }

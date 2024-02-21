@@ -31,44 +31,6 @@
             display: block;
         }
     }
-    /* 主页和关于的设置 */
-    #web,
-    #about{
-        padding-right: (20 / @rootSize);
-        overflow: hidden;
-        a {
-            color: #EAEDED;
-            span {
-                font-size: (20 / @fontSize);
-                padding: (5 / @rootSize);
-            }
-            // 滑动条
-            hr {
-                border: 1px solid #46E4B7;
-                background-color:#46E4B7;
-                color:#46E4B7;
-                height: (3 / @rootSize);
-                transform: translateX(-76px);
-                transition: all 0.2s;
-            }
-        }
-        a:hover {
-            color: #FDFEFE;
-        }
-        // 滑动条
-        a:hover hr{
-            transform: translateX(0px);
-        }
-    }
-
-    /* 关于的额外设置 */
-    #about {
-        a {
-            hr {
-                transform: translateX(-95px);
-            }
-        }
-    }
 }
 // 介绍
 .introduce {
@@ -87,9 +49,16 @@ body {
 }
 
 @media screen and (max-width:992px) {
+    //介绍
     .introduce {
         p { 
             font-size: (80 / @fontSize);
         }
+    }
+    .nav ul{
+        width: (1920 / @rootSize);
+        height: (200 / @rootSize);
+        font-size: (100 / @fontSize);
+        line-height:(200 / @rootSize);
     }
 }
