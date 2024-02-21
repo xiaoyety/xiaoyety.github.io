@@ -16,7 +16,6 @@
   margin-top: 1.04166667vw;
   /* 头像 */
   /* 主页和关于的设置 */
-  /* 关于的额外设置 */
 }
 .nav ul #head {
   display: flex;
@@ -52,11 +51,11 @@
 }
 .nav ul #web a hr,
 .nav ul #about a hr {
-  background-color: #AED6F1;
-  color: skyblue;
+  border: none;
+  background-color: skyblue;
   height: 0.15625vw;
-  transform: translateX(-3.95833333vw);
   transition: all 0.2s;
+  transform: translateX(-4.94791667vw);
 }
 .nav ul #web a:hover,
 .nav ul #about a:hover {
@@ -65,9 +64,6 @@
 .nav ul #web a:hover hr,
 .nav ul #about a:hover hr {
   transform: translateX(0);
-}
-.nav ul #about a hr {
-  transform: translateX(-4.94791667vw);
 }
 /* 侧边栏导航 */
 #main {

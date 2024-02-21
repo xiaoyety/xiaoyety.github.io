@@ -50,11 +50,11 @@
             }
             // 滑动条
             hr {
-                background-color: #AED6F1;
-                color: skyblue;
+                border: none;
+                background-color: skyblue;
                 height: (3 / @rootSize);
-                transform: translateX((-76 / @rootSize));
                 transition: all 0.2s;
+                transform: translateX((-95 / @rootSize));
             }
         }
         a:hover {
@@ -63,15 +63,6 @@
         // 滑动条
         a:hover hr{
             transform: translateX(0);
-        }
-    }
-
-    /* 关于的额外设置 */
-    #about {
-        a {
-            hr {
-                transform: translateX((-95 / @rootSize));
-            }
         }
     }
 }
